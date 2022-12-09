@@ -127,3 +127,59 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
 }
+
+/* slider container */
+
+.slider-main-container {
+  height: 44px;
+  width: 200px;
+  margin: auto;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.slider-item {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 4rem;
+  font-weight: lighter;
+}
+
+/* feature section */
+
+.feature-main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  width: 1600px;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.feature-main-section .feature-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 200px;
+}
+
+.feature-main-section .feature-one i {
+  font-size: 6rem;
+}
+
+.feature-main-section .feature-one a {
+  color: black;
+  font-size: 1.7rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+.feature-main-section > div {
+  margin: 0rem 3rem;
+}
